@@ -1,0 +1,46 @@
+{
+  "name": "eslint-config-camo",
+  "description": "Default eslint config used by camo.",
+  "license": "MIT",
+  "author": "Jason Nam <contact@jasonnam.com> (https://jasonnam.com)",
+  "homepage": "https://github.com/usecamo/eslint-config-camo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usecamo/eslint-config-camo"
+  },
+  "bugs": {
+    "url": "https://github.com/usecamo/eslint-config-camo/issues"
+  },
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint -c index.js .",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "peerDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-plugin-eslint-comments": "^3.1.1",
+    "eslint-plugin-jest": "^22.3.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-sort-requires": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-plugin-eslint-comments": "^3.1.1",
+    "eslint-plugin-jest": "^22.3.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-sort-requires": "^2.1.0",
+    "jest": "^24.1.0"
+  },
+  "keywords": [
+    "camo",
+    "config",
+    "eslint",
+    "eslint-config",
+    "lint"
+  ],
+  "engines": {
+    "node": ">=6.14"
+  }
+}

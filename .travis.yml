@@ -1,0 +1,25 @@
+language: node_js
+node_js:
+  - "11"
+  - "10"
+  - "9"
+  - "8"
+  - "7"
+  - "6"
+cache: npm
+before_install:
+  - nvm install-latest-npm
+script:
+  - echo "Running tests against $(node -v) ..."
+  - npm run lint
+  - npm test
+jobs:
+  include:
+    - stage: deploying to npm
+      node_js: "11"
+      script: echo "Deploying to npm ..."
+      deploy:
+        provider: npm
+        api_key: $NPM_API_KEY
+        on:
+          branch: master
