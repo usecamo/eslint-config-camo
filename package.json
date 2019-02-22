@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-camo",
-  "description": "Default eslint config used by camo.",
+  "description": "ESLint shareable config by Camo.",
   "license": "MIT",
   "author": "Jason Nam <contact@jasonnam.com> (https://jasonnam.com)",
   "homepage": "https://github.com/usecamo/eslint-config-camo",
