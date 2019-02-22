@@ -4,7 +4,7 @@
 [![travis-ci build status](https://travis-ci.com/usecamo/eslint-config-camo.svg?branch=master)](https://travis-ci.com/usecamo/eslint-config-camo)
 [![appveyor build status](https://ci.appveyor.com/api/projects/status/ixwt6xdgxkao4u94/branch/master?svg=true)](https://ci.appveyor.com/project/jasonnam/eslint-config-camo/branch/master)
 
-Base eslint config used by Camo.
+ESLint shareable config by Camo.
 
 ## Installation
 

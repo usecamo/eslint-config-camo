@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-camo",
-  "description": "Default eslint config used by camo.",
+  "description": "ESLint shareable config by Camo.",
   "license": "MIT",
   "author": "Jason Nam <contact@jasonnam.com> (https://jasonnam.com)",
   "homepage": "https://github.com/usecamo/eslint-config-camo",
@@ -11,8 +11,11 @@
   "bugs": {
     "url": "https://github.com/usecamo/eslint-config-camo/issues"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "lint": "eslint -c index.js .",
     "test": "jest",
