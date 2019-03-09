@@ -32,7 +32,7 @@ npm info "eslint-config-camo@latest" peerDependencies
 
 ## Usage
 
-Extend eslint config with `camo`.
+Extend ESLint config with `camo`.
 
 ```json
 {
