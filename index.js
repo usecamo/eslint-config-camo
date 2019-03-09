@@ -4,14 +4,15 @@ module.exports = {
   'extends': [
     'eslint:recommended',
     'plugin:eslint-comments/recommended',
-    'plugin:node/recommended',
     'plugin:jest/recommended',
     'plugin:jest/style'
   ],
-  'plugins': [
-    'sort-requires'
-  ],
+  'parserOptions': {
+    'ecmaVersion': 6,
+    'sourceType': 'module'
+  },
   'rules': {
+    'arrow-spacing': 'error',
     'eqeqeq': 'error',
     'eslint-comments/no-unused-disable': 'error',
     'no-use-before-define': [
@@ -19,10 +20,6 @@ module.exports = {
       'nofunc'
     ],
     'no-var': 'error',
-    'node/exports-style': [
-      'error',
-      'module.exports'
-    ],
     'object-shorthand': 'error',
     'one-var': [
       'error',
@@ -102,10 +99,6 @@ module.exports = {
         'omitLastInOneLineBlock': true
       }
     ],
-    'sort-requires/sort-requires': 'error',
-    'strict': [
-      'error',
-      'global'
-    ]
+    'sort-imports': 'error'
   }
 };
