@@ -1,6 +1,4 @@
-'use strict';
-
-const CLIEngine = require('eslint').CLIEngine;
+import { CLIEngine } from 'eslint';
 
 test('all rules are configured correctly', () => {
   const cli = new CLIEngine({
