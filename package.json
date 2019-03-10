@@ -22,17 +22,17 @@
     "test:watch": "jest --watch"
   },
   "peerDependencies": {
-    "eslint": "^5.14.1",
+    "eslint": "^5.15.1",
     "eslint-plugin-eslint-comments": "^3.1.1",
     "eslint-plugin-jest": "^22.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",
     "babel-preset-usecamo": "^0.1.0",
-    "eslint": "^5.14.1",
+    "eslint": "^5.15.1",
     "eslint-plugin-eslint-comments": "^3.1.1",
     "eslint-plugin-jest": "^22.3.0",
-    "jest": "^24.1.0"
+    "jest": "^24.3.1"
   },
   "keywords": [
     "camo",
