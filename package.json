@@ -17,7 +17,7 @@
     "index.js"
   ],
   "scripts": {
-    "lint": "eslint -c index.js __test__",
+    "lint": "eslint -c index.js __tests__",
     "test": "jest",
     "test:watch": "jest --watch"
   },
