@@ -11,6 +11,9 @@ module.exports = {
     'ecmaVersion': 6,
     'sourceType': 'module'
   },
+  'env': {
+    'es6': true
+  },
   'rules': {
     'arrow-spacing': 'error',
     'eqeqeq': 'error',
