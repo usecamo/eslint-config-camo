@@ -9,9 +9,6 @@ node_js:
 cache: npm
 before_install:
   - nvm install-latest-npm
-script:
-  - npm run lint
-  - npm test
 jobs:
   include:
     - stage: deploying to npm
