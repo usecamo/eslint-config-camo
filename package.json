@@ -11,15 +11,13 @@
   "bugs": {
     "url": "https://github.com/usecamo/eslint-config-camo/issues"
   },
-  "version": "0.2.3",
+  "version": "0.2.4",
   "main": "index.js",
   "files": [
     "index.js"
   ],
   "scripts": {
-    "lint": "eslint -c index.js __tests__",
-    "test": "jest",
-    "test:watch": "jest --watch"
+    "test": "jest"
   },
   "peerDependencies": {
     "eslint": "^5.15.1",
@@ -27,8 +25,8 @@
     "eslint-plugin-jest": "^22.3.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.3.4",
-    "babel-preset-usecamo": "^0.1.1",
+    "@babel/core": "^7.4.5",
+    "babel-preset-usecamo": "^0.1.4",
     "eslint": "^5.15.1",
     "eslint-plugin-eslint-comments": "^3.1.1",
     "eslint-plugin-jest": "^22.3.0",
